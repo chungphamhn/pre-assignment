@@ -22,7 +22,7 @@ function ShowDetail (){
             </div>
             <button 
                 className="detail-btn"
-                onClick={() => navigate("/")}
+                onClick={() => navigate(-1)}
                 >Go Back
             </button>
         </div>
