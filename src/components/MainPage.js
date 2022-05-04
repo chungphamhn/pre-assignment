@@ -37,9 +37,12 @@ class MainPage extends Component{
                         if(index > 5) return null;      //return only 6 items
                         return (
                             <SingleItem 
-                                id = {item.id} 
+                                name = {item.name} 
                                 brewery_type = {item.brewery_type}
-                                name = {item.name}                                
+                                street = {item.street}
+                                city = {item.city}      
+                                state = {item.state}
+                                country = {item.country}
                             />
                             
                         );

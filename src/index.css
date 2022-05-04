@@ -22,7 +22,7 @@ body {
   padding: 20px;
 }
 .search-form{
-  margin: auto;
+  margin: 150px;
   background-color: grey;
   padding-top: 30px;
   padding-right: 30px;
@@ -30,12 +30,13 @@ body {
   padding-left: 80px;
 }
 .input-field{
-    width: 60%;
-    padding: 12px 20px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  margin: 10px;
+  width: 60%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .search-button{
@@ -59,10 +60,19 @@ body {
   display: block;
 }
 
-.ShowDetail-child {
+.p1 {
+  font-weight: bold;
   text-align: center;
 }
 
-.p1 {
-  font-weight: bold;
+.p2{
+  padding-left: 12em;
+}
+
+.detail-btn {
+  margin-top: 5em;
+  margin-left: 20em;
+  padding: 20px;
+  width: 30%;
+  background-color: rgb(193, 197, 78);
 }
