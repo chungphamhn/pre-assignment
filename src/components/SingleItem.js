@@ -13,7 +13,7 @@ function SingleItem(props){
             state: props.state,
             country: props.country
         }})};
-
+        
     return(
         <dev className = "content" key = { props.id }>
             <dev className = "content-item">
