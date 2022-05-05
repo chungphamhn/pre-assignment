@@ -34,7 +34,7 @@ function Filter () {
             </div>
             <div className = "main">
                 {Data.map((item, index) => {
-                    if(filterState == "9" && index > 8) return null;      //return only 6 items by default
+                    if(filterState === "9" && index > 8) return null;      //return only 6 items by default
                     return (
                         <SingleItem 
                             name = {item.name} 

@@ -17,12 +17,6 @@ function Search(props){
     function handleChange(e){
         setValue(e.target.value);
     }
-
-    function takeInput(){
-        setFilterState(inputValue);
-        navigate("/search_results");
-        setValue("");
-    }
     
 
     return(
