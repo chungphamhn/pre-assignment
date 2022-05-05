@@ -4,7 +4,7 @@ import SingleItem from "./SingleItem";
 function Filter () {
 
     
-    const [filterState, setFilterState] = useState("6");
+    const [filterState, setFilterState] = useState("9");
     const [Data, fetchData] = useState([]);
 
     const getData = () => {
@@ -28,13 +28,13 @@ function Filter () {
             <div class="dropdown">
                 <button class="dropbtn">View : {filterState} items</button>
                     <div class="dropdown-content">
-                        <p onClick={() => setFilterState("6")}>6</p>
+                        <p onClick={() => setFilterState("9")}>9</p>
                         <p onClick={() => setFilterState("All")}>All</p>
                 </div>
             </div>
             <div className = "main">
                 {Data.map((item, index) => {
-                    if(filterState == "6" && index > 5) return null;      //return only 6 items by default
+                    if(filterState == "9" && index > 8) return null;      //return only 6 items by default
                     return (
                         <SingleItem 
                             name = {item.name} 

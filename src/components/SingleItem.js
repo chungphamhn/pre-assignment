@@ -19,7 +19,8 @@ function SingleItem(props){
             <dev className = "content-item">
                 <p>Name: { props.name }</p>
                 <p>Brewery type: { props.brewery_type }</p>
-                <p>City: { props.city } </p>                        
+                <p>City: { props.city } </p>  
+                <p>State: {props.state}</p>                      
             </dev>
             <button 
                 className="detail-button"
