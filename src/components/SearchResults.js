@@ -24,19 +24,19 @@ function SearchResults(){
     
     function filterData(value){     //search function
 
-        if(location.state.searchBy == "Name" && value.name.toLowerCase() == location.state.input.toLowerCase())
+        if(location.state.searchBy === "Name" && value.name.toLowerCase() === location.state.input.toLowerCase())
             return true;            
         
-        else if(location.state.searchBy == "Brewery type" && value.brewery_type.toLowerCase() == location.state.input.toLowerCase())
+        else if(location.state.searchBy === "Brewery type" && value.brewery_type.toLowerCase() === location.state.input.toLowerCase())
             return true;
             
-        else if(location.state.searchBy == "City" && value.city.toLowerCase() == location.state.input.toLowerCase())
+        else if(location.state.searchBy === "City" && value.city.toLowerCase() === location.state.input.toLowerCase())
             return true;
             
-        else if(location.state.searchBy == "State" && value.state.toLowerCase() == location.state.input.toLowerCase())
+        else if(location.state.searchBy === "State" && value.state.toLowerCase() === location.state.input.toLowerCase())
             return true;            
 
-        else if(location.state.searchBy == "Country" && value.country.toLowerCase() == location.state.input.toLowerCase())
+        else if(location.state.searchBy === "Country" && value.country.toLowerCase() === location.state.input.toLowerCase())
             return true;
         else
             return false;
